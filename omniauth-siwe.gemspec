@@ -5,6 +5,7 @@ require_relative 'lib/omniauth-siwe/version'
 Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'bcrypt'
   spec.add_runtime_dependency 'omniauth'
+  spec.add_runtime_dependency 'omniauth_openid_connect'
   spec.add_runtime_dependency 'siwe'
 
   spec.required_ruby_version = '>= 2.6.0'
