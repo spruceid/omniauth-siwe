@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
   spec.version = Omniauth::Siwe::VERSION
   spec.authors = ['Spruce Systems, Inc.']
   spec.licenses = ['MIT', 'Apache-2.0']
-  spec.files = Dir['lib/**/*', 'LICENSE', 'README.md']
+  spec.files = Dir['lib/**/*', 'LICENSE-MIT', 'LICENSE-APACHE', 'README.md']
   spec.bindir = 'exe'
   spec.require_paths = ['lib']
 end
